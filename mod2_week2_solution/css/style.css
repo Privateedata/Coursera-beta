@@ -10,8 +10,8 @@
     }
 }
 
-@media (min-width: 767px){
-    * {
-        boarder: 8px solid orange;
+@media ( max-width: 768px){
+    *{
+        border: 6px solid darkred;
     }
 }
