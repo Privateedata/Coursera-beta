@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset = "urf-8">
+        <meta name="viewport" content = "width=device-width, initial-cale=1">
+        <link rel = "stylesheet" href = "css/style.css">
+    </head>
+
+<body>
+<div>
+    <h1>root div</h1>
+    <span> <h2> Chiken </h2> <p> Node (1)-ONE with a child (CHIKEN)-title, Node (1)-ONE with a child (CHIKEN)-title, Node (1)-ONE with a child (CHIKEN)-title, Node (1)-ONE with a child (CHIKEN)-title</p> </span>
+    <span> <h2> Beef </h2> <p> Node (2)-TWO with a child (BEEF)-title, Node (2)-TWO with a child (BEEF)-title, Node (2)-TWO with a child (BEEF)-title, Node (2)-TWO with a child (BEEF)-title </p></span>
+    <span> <h2> Sushi </h2> <p> Node (3)-THREE with a child (SUSHI)-title, Node (3)-THREE with a child (SUSHI)-title, Node (3)-THREE with a child (SUSHI)-title, Node (3)-THREE with a child (SUSHI)-title</p></span>
+    
+</div>
+
+</body>
+
+</html>
