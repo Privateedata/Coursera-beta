@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetic" ,  "Comic Sans MS" , "Times New Roman" ;
+    
+   /*  overflow: auto; */
+}
+ p{
+     box-sizing: border-box;
+     clear:both;
+     
+ }
+h2{
+    width: 100px;
+    float: right;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    font-size: 125%;
+   
+}
+span:nth-of-type(1) > h2{
+    background-color: pink;
+    border: 1px solid;
+}
+span:nth-of-type(2) > h2{
+    background-color: red;
+    border: 1px solid;
+}
+span:nth-of-type(3) > h2{
+    background-color: gold;
+    border: 1px solid;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 175%;
+}
+@media ( min-width: 992px){
+    
+    span {
+        margin: 25px;
+        float: left;
+        border: 1px solid;
+        padding-left: 5px;
+        width: 28%;
+        background-color: silver;
+              
+    }
+}
+
+@media (min-width: 768px ) and ( max-width: 991px){
+    span{
+        margin: 25px;
+        float: left;
+        border: 1px solid;
+        width: 40%;
+        padding-left: 10px;
+        background-color: silver;
+    }
+    div span:nth-child(4){
+        margin: 25px;
+        width: 86%;
+        padding-left: 10px;
+        background-color: silver;
+        
+    }
+    /*
+    span[name="leaf3"]{
+        width: 100%;
+    }
+    
+     */
+}
+
+@media ( max-width: 768px){
+    span{
+        margin: 25px;
+        float: left;
+        border: 1px solid;
+        width: 95%;
+        padding-left: 10px;
+        background-color: silver;
+        
+    }
+}
